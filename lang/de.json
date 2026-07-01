@@ -1,0 +1,16 @@
+{
+    "navigation": {
+
+        "home": "Start",
+
+        "about": "Über mich",
+
+        "courses": "Kurse",
+
+        "prices": "Preise",
+
+        "contact": "Kontakt",
+        "legal": "Impressum"
+
+    }
+}

@@ -1,0 +1,49 @@
+main{
+
+    max-width:var(--max-width);
+
+    margin:auto;
+
+    padding:var(--spacing-lg);
+
+}
+
+section{
+
+    margin-bottom:var(--spacing-xl);
+
+}
+
+.hero{
+
+    text-align:center;
+
+    padding:5rem 0;
+
+}
+
+.features{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:var(--spacing-lg);
+
+}
+
+.about-preview{
+
+    display:grid;
+
+    gap:var(--spacing-md);
+
+}
+
+.contact-preview{
+
+    display:grid;
+
+    gap:var(--spacing-md);
+
+}

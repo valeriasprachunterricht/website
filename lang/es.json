@@ -1,0 +1,17 @@
+{
+    "navigation": {
+
+        "home": "Inicio",
+
+        "about": "Sobre mí",
+
+        "courses": "Cursos",
+
+        "prices": "Precios",
+
+        "contact": "Contacto",
+
+        "legal": "Aviso Legal"
+
+    }
+}

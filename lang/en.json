@@ -1,0 +1,21 @@
+{
+    "navigation": {
+
+        "home": "Home",
+
+        "about": "About",
+
+        "courses": "Courses",
+
+        "prices": "Prices",
+
+        "contact": "Contact",
+        "legal": "Legal notice"
+
+    },
+    "home": {
+        "hero" : {
+            "title": "Test"
+        }
+    }
+}

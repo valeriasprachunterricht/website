@@ -1,25 +1,54 @@
 <!DOCTYPE html>
 <html lang="de">
-
-<link rel="stylesheet" href="../css/base.css">
-<link rel="stylesheet" href="../css/variables.css">
-<link rel="stylesheet" href="../css/layout.css">
-<link rel="stylesheet" href="../css/components.css">
-<link rel="stylesheet" href="../css/responsive.css">
-
-<script type="module" src="../js/main.js"></script>
 <head>
-    <!-- Meta-Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title data-i18n="contactPage.meta.title">Kontakt</title>
+    <meta name="description" content="Kontakt zu Valeria Sprachunterricht." data-i18n-content="contactPage.meta.description">
+
+    <link rel="stylesheet" href="../css/variables.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/components.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="icon" href="/images/favicon.png" type="image/x-icon">
+
+    <script type="module" src="../js/main.js" defer></script>
 </head>
 
 <body>
 
     <header id="header"></header>
 
-    <main>
+    <main class="contact-page">
 
-        <!-- Seiteninhalt -->
-        contact
+        <section class="contact-hero">
+            <h1 data-i18n="contactPage.title">Kontakt</h1>
+            <p data-i18n="contactPage.subtitle">
+                Du möchtest Sprachunterricht buchen oder hast Fragen zu den Kursen?
+            </p>
+        </section>
+
+        <section class="contact-section">
+            <h2 data-i18n="contactPage.intro.title">Schreib mir gerne</h2>
+            <p data-i18n="contactPage.intro.text">
+                Ob Einzelunterricht, Online-Unterricht oder ein konkretes Lernziel: Schreib kurz, wobei du Unterstützung brauchst und welches Sprachniveau du aktuell hast.
+            </p>
+            <p data-i18n="contactPage.response.text">
+                Ich melde mich so bald wie möglich zurück und wir besprechen gemeinsam, welches Unterrichtsformat am besten zu dir passt.
+            </p>
+        </section>
+
+        <section class="contact-section contact-mail">
+            <h2 data-i18n="contactPage.email.title">Kontakt per E-Mail</h2>
+            <p data-i18n="contactPage.email.text">
+                Für Anfragen erreichst du mich am einfachsten per E-Mail:
+            </p>
+            <a class="button" href="mailto:mail@example.com" data-i18n="contactPage.email.address">
+                mail@example.com
+            </a>
+        </section>
     </main>
 
     <footer id="footer"></footer>

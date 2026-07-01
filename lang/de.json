@@ -1,16 +1,70 @@
 {
     "navigation": {
-
         "home": "Start",
-
         "about": "Über mich",
-
         "courses": "Kurse",
-
         "prices": "Preise",
-
         "contact": "Kontakt",
         "legal": "Impressum"
-
+    },
+    "contactPage": {
+        "meta": {
+            "title": "Kontakt",
+            "description": "Kontakt zu Valeria Sprachunterricht."
+        },
+        "title": "Kontakt",
+        "subtitle": "Du möchtest Sprachunterricht buchen oder hast Fragen zu den Kursen?",
+        "intro": {
+            "title": "Schreib mir gerne",
+            "text": "Ob Einzelunterricht, Online-Unterricht oder ein konkretes Lernziel: Schreib kurz, wobei du Unterstützung brauchst und welches Sprachniveau du aktuell hast."
+        },
+        "response": {
+            "text": "Ich melde mich so bald wie möglich zurück und wir besprechen gemeinsam, welches Unterrichtsformat am besten zu dir passt."
+        },
+        "email": {
+            "title": "Kontakt per E-Mail",
+            "text": "Für Anfragen erreichst du mich am einfachsten per E-Mail:",
+            "address": "mail@example.com"
+        }
+    },
+    "legal": {
+        "meta": {
+            "title": "Impressum",
+            "description": "Impressum und Anbieterkennzeichnung."
+        },
+        "title": "Impressum",
+        "subtitle": "Angaben gemäß § 5 DDG",
+        "provider": {
+            "title": "Anbieter",
+            "name": "Valeria Sprachunterricht",
+            "owner": "[Vorname Nachname]",
+            "street": "[Straße Hausnummer]",
+            "city": "[PLZ Ort]",
+            "country": "Deutschland",
+            "taxnumber": "Umsatzsteuer-Identifikationsnummer gemäß § 27a UStG:DE123456789"
+        },
+        "contact": {
+            "title": "Kontakt",
+            "emailLabel": "E-Mail:",
+            "email": "mail@example.com",
+            "phoneLabel": "Telefon:",
+            "phone": "[Telefonnummer]"
+        },
+        "responsible": {
+            "title": "Verantwortlich für den Inhalt",
+            "text": "Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV: [Vorname Nachname], [Anschrift wie oben]."
+        },
+        "contentLiability": {
+            "title": "Haftung für Inhalte",
+            "text": "Die Inhalte dieser Website wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte kann jedoch keine Gewähr übernommen werden."
+        },
+        "linkLiability": {
+            "title": "Haftung für Links",
+            "text": "Diese Website kann Links zu externen Websites enthalten. Für deren Inhalte sind ausschließlich die jeweiligen Betreiber verantwortlich."
+        },
+        "copyright": {
+            "title": "Urheberrecht",
+            "text": "Die auf dieser Website erstellten Inhalte und Werke unterliegen dem deutschen Urheberrecht. Jede Verwertung außerhalb der Grenzen des Urheberrechts bedarf der vorherigen Zustimmung der jeweiligen Rechteinhaber."
+        }
     }
 }

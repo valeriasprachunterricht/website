@@ -1,21 +1,75 @@
 {
     "navigation": {
-
         "home": "Home",
-
         "about": "About",
-
         "courses": "Courses",
-
         "prices": "Prices",
-
         "contact": "Contact",
         "legal": "Legal notice"
-
     },
     "home": {
-        "hero" : {
+        "hero": {
             "title": "Test"
+        }
+    },
+    "contactPage": {
+        "meta": {
+            "title": "Contact",
+            "description": "Contact Valeria Language Lessons."
+        },
+        "title": "Contact",
+        "subtitle": "Would you like to book language lessons or ask a question about the courses?",
+        "intro": {
+            "title": "Feel free to write",
+            "text": "Whether you are interested in one-to-one lessons, online lessons or a specific learning goal, just write briefly what kind of support you need and what your current language level is."
+        },
+        "response": {
+            "text": "I will get back to you as soon as possible, and we can discuss which lesson format suits you best."
+        },
+        "email": {
+            "title": "Contact by email",
+            "text": "The easiest way to send an inquiry is by email:",
+            "address": "mail@example.com"
+        }
+    },
+    "legal": {
+        "meta": {
+            "title": "Legal notice",
+            "description": "Legal notice and provider information."
+        },
+        "title": "Legal notice",
+        "subtitle": "Information pursuant to Section 5 DDG",
+        "provider": {
+            "title": "Provider",
+            "name": "Valeria Language Lessons",
+            "owner": "[First name Last name]",
+            "street": "[Street and house number]",
+            "city": "[Postal code City]",
+            "country": "Germany",
+            "taxnumber": "VAT Identification Number (VAT ID) pursuant to Section 27a of the German VAT Act (UStG):DE123456789"
+        },
+        "contact": {
+            "title": "Contact",
+            "emailLabel": "Email:",
+            "email": "mail@example.com",
+            "phoneLabel": "Phone:",
+            "phone": "[Phone number]"
+        },
+        "responsible": {
+            "title": "Responsible for content",
+            "text": "Responsible for content pursuant to Section 18 (2) MStV: [First name Last name], [address as above]."
+        },
+        "contentLiability": {
+            "title": "Liability for content",
+            "text": "The contents of this website have been created with great care. However, no guarantee can be given for the accuracy, completeness or timeliness of the content."
+        },
+        "linkLiability": {
+            "title": "Liability for links",
+            "text": "This website may contain links to external websites. The respective operators are solely responsible for their content."
+        },
+        "copyright": {
+            "title": "Copyright",
+            "text": "The content and works created on this website are subject to German copyright law. Any use beyond the limits of copyright law requires the prior consent of the respective rights holders."
         }
     }
 }

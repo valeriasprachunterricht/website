@@ -39,6 +39,12 @@ export function createNavigation(){
     const nav =
         document.getElementById("navigation");
 
+    const menuToggle =
+        document.querySelector(".menu-toggle");
+
+    const headerContainer =
+        document.querySelector(".header-container");
+
     nav.innerHTML = "";
 
     pages.forEach(page=>{
@@ -61,5 +67,54 @@ export function createNavigation(){
         nav.appendChild(link);
 
     });
+
+    if (
+        menuToggle &&
+        headerContainer &&
+        !menuToggle.dataset.initialized
+    ) {
+        menuToggle.addEventListener("click", () => {
+
+            const isOpen =
+                headerContainer.classList.toggle("nav-open");
+
+            menuToggle.setAttribute(
+                "aria-expanded",
+                String(isOpen)
+            );
+
+            menuToggle.setAttribute(
+                "aria-label",
+                isOpen ? "Navigation schließen" : "Navigation öffnen"
+            );
+
+        });
+
+        nav.addEventListener("click", event => {
+
+            if (event.target.tagName !== "A") {
+                return;
+            }
+
+            headerContainer.classList.remove("nav-open");
+            menuToggle.setAttribute("aria-expanded", "false");
+            menuToggle.setAttribute("aria-label", "Navigation öffnen");
+
+        });
+
+        document.addEventListener("keydown", event => {
+
+            if (event.key !== "Escape") {
+                return;
+            }
+
+            headerContainer.classList.remove("nav-open");
+            menuToggle.setAttribute("aria-expanded", "false");
+            menuToggle.setAttribute("aria-label", "Navigation öffnen");
+
+        });
+
+        menuToggle.dataset.initialized = "true";
+    }
 
 }

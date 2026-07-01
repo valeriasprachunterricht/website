@@ -1,25 +1,90 @@
 <!DOCTYPE html>
 <html lang="de">
 
-<link rel="stylesheet" href="../css/base.css">
-<link rel="stylesheet" href="../css/variables.css">
-<link rel="stylesheet" href="../css/layout.css">
-<link rel="stylesheet" href="../css/components.css">
-<link rel="stylesheet" href="../css/responsive.css">
-
-<script type="module" src="../js/main.js"></script>
 <head>
-    <!-- Meta-Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title data-i18n="legal.meta.title">Impressum</title>
+    <meta name="description" content="Impressum und Anbieterkennzeichnung." data-i18n-content="legal.meta.description">
+
+    <link rel="stylesheet" href="../css/variables.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/components.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="icon" href="/images/favicon.png" type="image/x-icon">
+
+    <script type="module" src="../js/main.js" defer></script>
 </head>
 
 <body>
 
     <header id="header"></header>
 
-    <main>
+    <main class="legal-page">
 
-        <!-- Seiteninhalt -->
-        contact
+        <section class="legal-hero">
+            <h1 data-i18n="legal.title">Impressum</h1>
+            <p data-i18n="legal.subtitle">Angaben gemäß § 5 DDG</p>
+        </section>
+
+        <section class="legal-section">
+            <h2 data-i18n="legal.provider.title">Anbieter</h2>
+            <address>
+                <strong data-i18n="legal.provider.name">Valeria Sprachunterricht</strong><br>
+                <span data-i18n="legal.provider.owner">[Vorname Nachname]</span><br>
+                <span data-i18n="legal.provider.street">[Straße Hausnummer]</span><br>
+                <span data-i18n="legal.provider.city">[PLZ Ort]</span><br>
+                <span data-i18n="legal.provider.country">Deutschland</span><br>
+                <span data-i18n="legal.provider.taxnumber">Umsatzsteuer-Identifikationsnummer gemäß § 27a UStG:
+                    DE123456789 </span>
+            </address>
+        </section>
+
+        <section class="legal-section">
+            <h2 data-i18n="legal.contact.title">Kontakt</h2>
+            <p>
+                <span data-i18n="legal.contact.emailLabel">E-Mail:</span>
+                <a href="mailto:mail@example.com" data-i18n="legal.contact.email">mail@example.com</a>
+            </p>
+            <p>
+                <span data-i18n="legal.contact.phoneLabel">Telefon:</span>
+                <span data-i18n="legal.contact.phone">[Telefonnummer]</span>
+            </p>
+        </section>
+
+        <section class="legal-section">
+            <h2 data-i18n="legal.responsible.title">Verantwortlich für den Inhalt</h2>
+            <p data-i18n="legal.responsible.text">
+                Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV: [Vorname Nachname], [Anschrift wie oben].
+            </p>
+        </section>
+
+        <section class="legal-section">
+            <h2 data-i18n="legal.contentLiability.title">Haftung für Inhalte</h2>
+            <p data-i18n="legal.contentLiability.text">
+                Die Inhalte dieser Website wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit
+                und Aktualität der Inhalte kann jedoch keine Gewähr übernommen werden.
+            </p>
+        </section>
+
+        <section class="legal-section">
+            <h2 data-i18n="legal.linkLiability.title">Haftung für Links</h2>
+            <p data-i18n="legal.linkLiability.text">
+                Diese Website kann Links zu externen Websites enthalten. Für deren Inhalte sind ausschließlich die
+                jeweiligen Betreiber verantwortlich.
+            </p>
+        </section>
+
+        <section class="legal-section">
+            <h2 data-i18n="legal.copyright.title">Urheberrecht</h2>
+            <p data-i18n="legal.copyright.text">
+                Die auf dieser Website erstellten Inhalte und Werke unterliegen dem deutschen Urheberrecht. Jede
+                Verwertung außerhalb der Grenzen des Urheberrechts bedarf der vorherigen Zustimmung der jeweiligen
+                Rechteinhaber.
+            </p>
+        </section>
     </main>
 
     <footer id="footer"></footer>

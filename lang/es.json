@@ -1,17 +1,70 @@
 {
     "navigation": {
-
         "home": "Inicio",
-
         "about": "Sobre mí",
-
         "courses": "Cursos",
-
         "prices": "Precios",
-
         "contact": "Contacto",
-
-        "legal": "Aviso Legal"
-
+        "legal": "Aviso legal"
+    },
+    "contactPage": {
+        "meta": {
+            "title": "Contacto",
+            "description": "Contacto con Clases de idiomas Valeria."
+        },
+        "title": "Contacto",
+        "subtitle": "¿Quieres reservar clases de idiomas o tienes preguntas sobre los cursos?",
+        "intro": {
+            "title": "Escríbeme cuando quieras",
+            "text": "Ya sea que te interesen clases individuales, clases en línea o un objetivo concreto de aprendizaje, cuéntame brevemente qué apoyo necesitas y cuál es tu nivel actual."
+        },
+        "response": {
+            "text": "Te responderé lo antes posible y podremos comentar qué formato de clase se adapta mejor a ti."
+        },
+        "email": {
+            "title": "Contacto por correo electrónico",
+            "text": "La forma más sencilla de enviar una consulta es por correo electrónico:",
+            "address": "mail@example.com"
+        }
+    },
+    "legal": {
+        "meta": {
+            "title": "Aviso legal",
+            "description": "Aviso legal e información del proveedor."
+        },
+        "title": "Aviso legal",
+        "subtitle": "Información conforme al artículo 5 DDG",
+        "provider": {
+            "title": "Proveedor",
+            "name": "Clases de idiomas Valeria",
+            "owner": "[Nombre Apellido]",
+            "street": "[Calle y número]",
+            "city": "[Código postal Ciudad]",
+            "country": "Alemania",
+            "taxnumber": "Número de identificación a efectos del IVA (NIF-IVA) conforme al artículo 27a de la Ley alemana del IVA (UStG):DE123456789"
+        },
+        "contact": {
+            "title": "Contacto",
+            "emailLabel": "Correo electrónico:",
+            "email": "mail@example.com",
+            "phoneLabel": "Teléfono:",
+            "phone": "[Número de teléfono]"
+        },
+        "responsible": {
+            "title": "Responsable del contenido",
+            "text": "Responsable del contenido conforme al artículo 18, apartado 2, MStV: [Nombre Apellido], [dirección como arriba]."
+        },
+        "contentLiability": {
+            "title": "Responsabilidad por contenidos",
+            "text": "Los contenidos de este sitio web se han creado con el máximo cuidado. No obstante, no se garantiza la exactitud, integridad o actualidad de los contenidos."
+        },
+        "linkLiability": {
+            "title": "Responsabilidad por enlaces",
+            "text": "Este sitio web puede contener enlaces a sitios web externos. Sus respectivos operadores son los únicos responsables de sus contenidos."
+        },
+        "copyright": {
+            "title": "Derechos de autor",
+            "text": "Los contenidos y obras creados en este sitio web están sujetos a la legislación alemana sobre derechos de autor. Cualquier uso fuera de los límites de dicha legislación requiere el consentimiento previo de los respectivos titulares de derechos."
+        }
     }
 }

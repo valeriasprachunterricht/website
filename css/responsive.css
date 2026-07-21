@@ -18,6 +18,12 @@
 
 @media (max-width:768px){
 
+    .header-hero{
+
+        width:70%;
+
+    }
+
     .header-container{
 
         display:grid;
@@ -90,6 +96,8 @@
 
         display:block;
 
+        font-size:16px;
+
         padding:.75rem 0;
 
         text-align:center;
@@ -135,6 +143,12 @@
     .hero{
 
         padding:3rem 0;
+
+    }
+
+    .course-table{
+
+        min-width:640px;
 
     }
 

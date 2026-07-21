@@ -1,25 +1,87 @@
 <!DOCTYPE html>
 <html lang="de">
-<link rel="stylesheet" href="../css/base.css">
-<link rel="stylesheet" href="../css/variables.css">
-<link rel="stylesheet" href="../css/layout.css">
-<link rel="stylesheet" href="../css/components.css">
-<link rel="stylesheet" href="../css/responsive.css">
-
-<script type="module" src="../js/main.js"></script>
 
 <head>
-    <!-- Meta-Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title data-i18n="courses.meta.title">Kurse</title>
+    <meta name="description" content="Englisch- und Spanischunterricht von A1 bis C1."
+        data-i18n-content="courses.meta.description">
+
+    <link rel="stylesheet" href="../css/variables.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/components.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="icon" href="/images/favicon.png" type="image/x-icon">
+
+    <script type="module" src="../js/main.js" defer></script>
 </head>
 
 <body>
 
     <header id="header"></header>
 
-    <main>
+    <main class="courses-page">
 
-        <!-- Seiteninhalt -->
-        courses
+        <section class="courses-hero">
+            <h1 data-i18n="courses.title">Kurse</h1>
+            <p data-i18n="courses.intro">Englisch- und Spanischunterricht für alle Niveaus von A1 bis C1.</p>
+        </section>
+
+        <section class="courses-section">
+            <h2 data-i18n="courses.levels.title">Sprachniveaus und ungefähre Dauer</h2>
+            <p data-i18n="courses.levels.intro">Die Dauer richtet sich nach Lernziel, Vorkenntnissen und Lerntempo.</p>
+
+            <div class="course-table-wrapper">
+                <table class="course-table">
+                    <thead>
+                        <tr>
+                            <th data-i18n="courses.table.level">Niveau</th>
+                            <th data-i18n="courses.table.content">Inhalt</th>
+                            <th data-i18n="courses.table.duration">Ungefähre Dauer</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">A1</th>
+                            <td data-i18n="courses.table.a1.content">Grundlagen</td>
+                            <td data-i18n="courses.table.a1.duration">ca. 80–100 Unterrichtsstunden</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">A2</th>
+                            <td data-i18n="courses.table.a2.content">Grundkenntnisse</td>
+                            <td data-i18n="courses.table.a2.duration">ca. 100–120 Unterrichtsstunden</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">B1</th>
+                            <td data-i18n="courses.table.b1.content">Fortgeschrittene Sprachverwendung</td>
+                            <td data-i18n="courses.table.b1.duration">ca. 150–200 Unterrichtsstunden</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">B2</th>
+                            <td data-i18n="courses.table.b2.content">Selbstständige Sprachverwendung</td>
+                            <td data-i18n="courses.table.b2.duration">ca. 180–220 Unterrichtsstunden</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">C1</th>
+                            <td data-i18n="courses.table.c1.content">Nahezu fließende Sprachverwendung</td>
+                            <td data-i18n="courses.table.c1.duration">ca. 200–250 Unterrichtsstunden</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="courses-section course-pricing">
+            <h2 data-i18n="courses.pricing.title">Kosten</h2>
+            <p data-i18n="courses.pricing.text">Eine Unterrichtsstunde kostet je nach Niveau zwischen 20 € und 40 €.</p>
+            <p data-i18n="courses.pricing.monthly">Die Abrechnung erfolgt monatlich und richtet sich nach der Anzahl der vereinbarten Unterrichtsstunden.</p>
+            <p data-i18n="courses.pricing.example">Beispiel: Bei einer A1-Spanischstunde pro Woche à 20 € kostet ein Monat mit vier Unterrichtsstunden 80 €.</p>
+            <p data-i18n="courses.pricing.trial">Die Probestunde kostet 15 €.</p>
+        </section>
+
     </main>
 
     <footer id="footer"></footer>

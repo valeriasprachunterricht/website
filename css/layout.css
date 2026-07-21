@@ -22,6 +22,16 @@ section{
 
 }
 
+.hero{
+
+    display:grid;
+
+    justify-items:center;
+
+    gap:var(--spacing-lg);
+
+}
+
 .features{
 
     display:grid;
@@ -29,6 +39,16 @@ section{
     grid-template-columns:repeat(3,1fr);
 
     gap:var(--spacing-lg);
+
+}
+
+.features .card{
+
+    display:grid;
+
+    grid-template-rows:auto 1fr auto;
+
+    gap:var(--spacing-md);
 
 }
 
@@ -133,5 +153,38 @@ section{
 .legal-section address{
 
     font-style:normal;
+
+}
+
+.courses-page{
+
+    display:grid;
+
+    gap:var(--spacing-lg);
+
+}
+
+.courses-hero,
+.courses-section{
+
+    display:grid;
+
+    gap:var(--spacing-sm);
+
+    margin-bottom:0;
+
+}
+
+.courses-hero h1{
+
+    font-size:var(--font-xlarge);
+
+}
+
+.courses-hero p{
+
+    color:var(--text-color-on-bc);
+
+    font-size:var(--font-large);
 
 }

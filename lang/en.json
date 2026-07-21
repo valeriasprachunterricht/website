@@ -1,16 +1,79 @@
 {
+    "seo": {
+        "title": "Valeria Language Lessons | English and Spanish",
+        "description": "Individual English and Spanish lessons from A1 to C1."
+    },
     "navigation": {
         "home": "Home",
         "about": "About",
         "courses": "Courses",
-        "prices": "Prices",
         "contact": "Contact",
         "legal": "Legal notice"
     },
+    "courses": {
+        "meta": {
+            "title": "Courses",
+            "description": "English and Spanish lessons from A1 to C1."
+        },
+        "title": "Courses",
+        "intro": "English and Spanish lessons for all levels from A1 to C1.",
+        "levels": {
+            "title": "Language levels and approximate duration",
+            "intro": "The duration depends on your learning goals, previous knowledge and learning pace."
+        },
+        "table": {
+            "level": "Level",
+            "content": "Content",
+            "duration": "Approximate duration",
+            "a1": { "content": "Basics", "duration": "approx. 80–100 lesson hours" },
+            "a2": { "content": "Elementary knowledge", "duration": "approx. 100–120 lesson hours" },
+            "b1": { "content": "Intermediate use", "duration": "approx. 150–200 lesson hours" },
+            "b2": { "content": "Independent use", "duration": "approx. 180–220 lesson hours" },
+            "c1": { "content": "Near-fluent use", "duration": "approx. 200–250 lesson hours" }
+        },
+        "pricing": {
+            "title": "Prices",
+            "text": "A lesson costs between €20 and €40 per hour, depending on the level.",
+            "monthly": "Billing is monthly and depends on the number of lessons agreed.",
+            "example": "Example: One A1 Spanish lesson per week at €20 costs €80 for a month with four lessons.",
+            "trial": "The trial lesson costs €15."
+        }
+    },
     "home": {
         "hero": {
-            "title": "Test"
+            "title": "Learn English and Spanish – personal and individual",
+            "subtitle": "Language lessons for every level from A1 to C1 – online and tailored to your goals.",
+            "button": "Discover courses"
+        },
+        "features": {
+            "lesson": {
+                "title": "English & Spanish",
+                "text": "Individual English and Spanish lessons – from your first basics to confident, near-fluent language use.",
+                "button": "View courses"
+            },
+            "online": {
+                "title": "Your level, your pace",
+                "text": "Whether A1, A2, B1, B2 or C1: together, we plan lessons that suit your learning goals and everyday life.",
+                "button": "View levels"
+            },
+            "material": {
+                "title": "Trial lesson",
+                "text": "Get to know me and my teaching style in a trial lesson for €15.",
+                "button": "Request a trial lesson"
+            }
+        },
+        "about": {
+            "title": "About me",
+            "text": "I'm Valeria, an English and Spanish teacher. Languages connect people, cultures and new opportunities – and that is exactly what I want to share in my lessons."
+        },
+        "contact": {
+            "title": "Contact",
+            "text": "Would you like to get started or have a question? Feel free to write and tell me a little about your learning goal and current level.",
+            "button": "Get in touch"
         }
+    },
+    "buttons": {
+        "more": "Learn more"
     },
     "contactPage": {
         "meta": {
@@ -29,7 +92,7 @@
         "email": {
             "title": "Contact by email",
             "text": "The easiest way to send an inquiry is by email:",
-            "address": "mail@example.com"
+            "address": "valeria.parra@valeriasprachunterricht.de"
         }
     },
     "legal": {
@@ -42,22 +105,22 @@
         "provider": {
             "title": "Provider",
             "name": "Valeria Language Lessons",
-            "owner": "[First name Last name]",
-            "street": "[Street and house number]",
-            "city": "[Postal code City]",
+            "owner": "Valeria Parra Fuentes",
+            "street": "Theodor-Fischer-Straße 28",
+            "city": "74076 Heilbronn",
             "country": "Germany",
-            "taxnumber": "VAT Identification Number (VAT ID) pursuant to Section 27a of the German VAT Act (UStG):DE123456789"
+            "taxnumber": "VAT Identification Number (VAT ID) pursuant to Section 27a of the German VAT Act (UStG):DE461410031"
         },
         "contact": {
             "title": "Contact",
             "emailLabel": "Email:",
-            "email": "mail@example.com",
+            "email": "valeria.parra@valeriasprachunterricht.de",
             "phoneLabel": "Phone:",
-            "phone": "[Phone number]"
+            "phone": "Available on request"
         },
         "responsible": {
             "title": "Responsible for content",
-            "text": "Responsible for content pursuant to Section 18 (2) MStV: [First name Last name], [address as above]."
+            "text": "Responsible for content pursuant to Section 18 (2) MStV: Valeria Parra Fuentes, [address as above]."
         },
         "contentLiability": {
             "title": "Liability for content",
@@ -70,6 +133,30 @@
         "copyright": {
             "title": "Copyright",
             "text": "The content and works created on this website are subject to German copyright law. Any use beyond the limits of copyright law requires the prior consent of the respective rights holders."
+        }
+    },
+    "about": {
+        "title": "About Me",
+        "introduction": "Hi, I'm Valeria, an English and Spanish teacher with a heart scattered across three worlds: Chile, the land where I was born and took my first steps; Spain, the land that opened its arms to me and helped me grow as a person; Germany, the land where I keep learning and discovering who I'm becoming.",
+        "languages": {
+            "title": "Four Languages, Four Perspectives",
+            "intro": "Each place has given me different experiences and different ways of being, expressing myself, and feeling. Inside me, four languages live together, constantly fighting to come out.",
+            "spanish": "Spanish gave me the richness of living every emotion with strength and passion.",
+            "valencian": "Valencian gave me deep, lasting friendships, and the bridge between Chile's and Spain's history.",
+            "english": "English gave me friendships across the world, a superpower for seeing situations with distance and objectivity, and the chance to work and choose my life in different countries.",
+            "german": "German gave me a new way of being: to stop apologizing for existing, to become more independent, and to step outside my comfort zone."
+        },
+        "philosophy": {
+            "title": "Why Languages Connect",
+            "cultures": "Laughter, stories, and time shared across cultures is never lost time, it's time gained.",
+            "communication": "Imagine landing the job of your dreams, truly understanding your partner, and showing them you made the effort to learn their language too. Speaking someone's language is the greatest act of love a person can give. Imagine being able to travel, to feel like you belong, to fill out tedious forms without confusion, to order food without hesitating, to negotiate your own contracts on your own terms, and to say \"no\" when something's wrong. Imagine being able to joke around and express yourself your own way, without changing who you are.",
+            "orange": "A language, from the outside, is like an orange peel: it seems tough and bitter. But once you unlock its meaning step by step, it turns sweet, soft, delicious."
+        },
+        "journey": {
+            "title": "My Journey",
+            "studies": "I studied English Studies at Universitat Jaume I and spent a year abroad through Erasmus+.",
+            "career": "After graduating, I chose not to follow the expected path: I traveled, worked in different countries, and tried many jobs: mentoring international students, waitressing, being an entertainer, and working in early childhood education, until I discovered, almost by chance, what it truly means to teach. That's where I found my place.",
+            "foundation": "That journey led me to create Valeria Sprachunterricht: a space to help others reach their full potential, rebuild their confidence, and open the doors that English and Spanish can offer; from new jobs to new lives."
         }
     }
 }

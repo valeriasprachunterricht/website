@@ -1,11 +1,79 @@
 {
+    "seo": {
+        "title": "Valeria Sprachunterricht | Englisch und Spanisch",
+        "description": "Individueller Englisch- und Spanischunterricht von A1 bis C1."
+    },
     "navigation": {
         "home": "Start",
         "about": "Über mich",
         "courses": "Kurse",
-        "prices": "Preise",
         "contact": "Kontakt",
         "legal": "Impressum"
+    },
+    "home": {
+        "hero": {
+            "title": "Englisch und Spanisch lernen – persönlich und individuell",
+            "subtitle": "Sprachunterricht für alle Niveaus von A1 bis C1 – online und auf deine Ziele abgestimmt.",
+            "button": "Kurse entdecken"
+        },
+        "features": {
+            "lesson": {
+                "title": "Englisch & Spanisch",
+                "text": "Individueller Unterricht für Englisch und Spanisch – von den ersten Grundlagen bis zur sicheren, fast fließenden Sprachverwendung.",
+                "button": "Zu den Kursen"
+            },
+            "online": {
+                "title": "Dein Niveau, dein Tempo",
+                "text": "Ob A1, A2, B1, B2 oder C1: Gemeinsam planen wir Unterricht, der zu deinem Lernziel und deinem Alltag passt.",
+                "button": "Niveaus ansehen"
+            },
+            "material": {
+                "title": "Probestunde",
+                "text": "Lerne mich und meine Unterrichtsweise in einer Probestunde für 15 € kennen.",
+                "button": "Probestunde anfragen"
+            }
+        },
+        "about": {
+            "title": "Über mich",
+            "text": "Ich bin Valeria, Englisch- und Spanischlehrerin. Sprachen verbinden Menschen, Kulturen und neue Möglichkeiten – und genau das möchte ich in meinem Unterricht weitergeben."
+        },
+        "contact": {
+            "title": "Kontakt",
+            "text": "Du möchtest starten oder hast Fragen? Schreib mir gerne und erzähl mir kurz von deinem Lernziel und deinem aktuellen Niveau.",
+            "button": "Kontakt aufnehmen"
+        }
+    },
+    "buttons": {
+        "more": "Mehr erfahren"
+    },
+    "courses": {
+        "meta": {
+            "title": "Kurse",
+            "description": "Englisch- und Spanischunterricht von A1 bis C1."
+        },
+        "title": "Kurse",
+        "intro": "Englisch- und Spanischunterricht für alle Niveaus von A1 bis C1.",
+        "levels": {
+            "title": "Sprachniveaus und ungefähre Dauer",
+            "intro": "Die Dauer richtet sich nach Lernziel, Vorkenntnissen und Lerntempo."
+        },
+        "table": {
+            "level": "Niveau",
+            "content": "Inhalt",
+            "duration": "Ungefähre Dauer",
+            "a1": { "content": "Grundlagen", "duration": "ca. 80–100 Unterrichtsstunden" },
+            "a2": { "content": "Grundkenntnisse", "duration": "ca. 100–120 Unterrichtsstunden" },
+            "b1": { "content": "Fortgeschrittene Sprachverwendung", "duration": "ca. 150–200 Unterrichtsstunden" },
+            "b2": { "content": "Selbstständige Sprachverwendung", "duration": "ca. 180–220 Unterrichtsstunden" },
+            "c1": { "content": "Nahezu fließende Sprachverwendung", "duration": "ca. 200–250 Unterrichtsstunden" }
+        },
+        "pricing": {
+            "title": "Kosten",
+            "text": "Eine Unterrichtsstunde kostet je nach Niveau zwischen 20 € und 40 €.",
+            "monthly": "Die Abrechnung erfolgt monatlich und richtet sich nach der Anzahl der vereinbarten Unterrichtsstunden.",
+            "example": "Beispiel: Bei einer A1-Spanischstunde pro Woche à 20 € kostet ein Monat mit vier Unterrichtsstunden 80 €.",
+            "trial": "Die Probestunde kostet 15 €."
+        }
     },
     "contactPage": {
         "meta": {
@@ -24,7 +92,7 @@
         "email": {
             "title": "Kontakt per E-Mail",
             "text": "Für Anfragen erreichst du mich am einfachsten per E-Mail:",
-            "address": "mail@example.com"
+            "address": "valeria.parra@valeriasprachunterricht.de"
         }
     },
     "legal": {
@@ -37,22 +105,22 @@
         "provider": {
             "title": "Anbieter",
             "name": "Valeria Sprachunterricht",
-            "owner": "[Vorname Nachname]",
-            "street": "[Straße Hausnummer]",
-            "city": "[PLZ Ort]",
+            "owner": "Valeria Parra Fuentes",
+            "street": "Theodor-Fischer-Straße 28",
+            "city": "74076 Heilbronn",
             "country": "Deutschland",
-            "taxnumber": "Umsatzsteuer-Identifikationsnummer gemäß § 27a UStG:DE123456789"
+            "taxnumber": "Umsatzsteuer-Identifikationsnummer gemäß § 27a UStG:DE461410031"
         },
         "contact": {
             "title": "Kontakt",
             "emailLabel": "E-Mail:",
-            "email": "mail@example.com",
+            "email": "valeria.parra@valeriasprachunterricht.de",
             "phoneLabel": "Telefon:",
-            "phone": "[Telefonnummer]"
+            "phone": "Nach Anfrage"
         },
         "responsible": {
             "title": "Verantwortlich für den Inhalt",
-            "text": "Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV: [Vorname Nachname], [Anschrift wie oben]."
+            "text": "Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV: Valeria Parra Fuentes, [Anschrift wie oben]."
         },
         "contentLiability": {
             "title": "Haftung für Inhalte",
@@ -65,6 +133,30 @@
         "copyright": {
             "title": "Urheberrecht",
             "text": "Die auf dieser Website erstellten Inhalte und Werke unterliegen dem deutschen Urheberrecht. Jede Verwertung außerhalb der Grenzen des Urheberrechts bedarf der vorherigen Zustimmung der jeweiligen Rechteinhaber."
+        }
+    },
+    "about": {
+        "title": "Über mich",
+        "introduction": "Hallo, ich bin Valeria, Englisch- und Spanischlehrerin mit einem Herzen, das sich über drei Welten verteilt: Chile, das Land, in dem ich geboren wurde und meine ersten Schritte machte; Spanien, das Land, das mir seine Arme öffnete und mich als Mensch wachsen ließ; Deutschland, das Land, in dem ich weiterhin lerne und entdecke, wer ich werde.",
+        "languages": {
+            "title": "Vier Sprachen, vier Perspektiven",
+            "intro": "Jeder Ort hat mir andere Erfahrungen geschenkt und andere Wege, zu sein, mich auszudrücken und zu fühlen. In mir leben vier Sprachen, die ständig darum kämpfen, herauszukommen.",
+            "spanish": "Spanisch schenkte mir den Reichtum, jedes Gefühl mit Kraft und Leidenschaft zu leben.",
+            "valencian": "Valencianisch schenkte mir tiefe, ewige Freundschaften und die Brücke zwischen der Geschichte Chiles und Spaniens.",
+            "english": "Englisch schenkte mir Freundschaften auf der anderen Seite des Kontinents, eine Superkraft, Situationen distanziert und objektiv zu betrachten, sowie die Möglichkeit, in verschiedenen Ländern zu arbeiten und mein Leben selbst zu wählen.",
+            "german": "Deutsch schenkte mir eine neue Art zu sein: aufzuhören, mich für meine bloße Existenz zu entschuldigen, unabhängiger zu werden und meine Komfortzone zu verlassen."
+        },
+        "philosophy": {
+            "title": "Warum Sprache verbindet",
+            "cultures": "Das Lachen, die Anekdoten und die geteilte Zeit mit anderen Kulturen sind nie verlorene Zeit, sondern gewonnene Zeit.",
+            "communication": "Stell dir vor, du bekommst den Job deines Lebens, verstehst deinen Partner wirklich und kannst ihm zeigen, dass du dich auch bemüht hast, seine Sprache zu lernen. Die Sprache des anderen zu sprechen, ist der größte Liebesbeweis, den ein Mensch geben kann. Stell dir vor, du kannst reisen, dich zugehörig fühlen, lästige Formulare verstehen, ohne zu zögern Essen bestellen, deine eigenen Verträge zu deinen eigenen Bedingungen verhandeln und „Nein“ sagen, wenn etwas nicht stimmt. Stell dir vor, du kannst Witze erzählen und dich auf deine eigene Art ausdrücken, ohne dein Wesen zu verändern.",
+            "orange": "Eine Sprache wirkt von außen wie eine Orangenschale: hart und bitter. Aber sobald du ihre Bedeutung Schritt für Schritt entschlüsselst, wird sie süß, weich und köstlich."
+        },
+        "journey": {
+            "title": "Mein Weg",
+            "studies": "Ich habe Anglistik an der Universitat Jaume I studiert und ein Jahr im Rahmen von Erasmus+ im Ausland verbracht.",
+            "career": "Nach meinem Abschluss entschied ich mich, nicht den erwarteten Weg zu gehen: Ich reiste, arbeitete in verschiedenen Ländern und probierte viele Berufe aus: als Mentorin für internationale Studierende, Kellnerin, Animateurin und Erzieherin, bis ich fast zufällig entdeckte, was es wirklich bedeutet zu unterrichten. Dort fand ich meinen Platz.",
+            "foundation": "Dieser Weg führte mich zur Gründung von Valeria Sprachunterricht: einem Raum, der anderen hilft, ihr volles Potenzial zu entfalten, ihr Selbstvertrauen zurückzugewinnen und die Türen zu öffnen, die Englisch und Spanisch bieten können; von neuen Jobs bis zu neuen Leben."
         }
     }
 }

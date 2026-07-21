@@ -19,11 +19,6 @@ export const pages = [
     },
 
     {
-        key:"navigation.prices",
-        url:"/pages/prices.html"
-    },
-
-    {
         key:"navigation.contact",
         url:"/pages/contact.html"
     },

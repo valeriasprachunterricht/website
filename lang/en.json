@@ -107,7 +107,7 @@
         "email": {
             "title": "Contact by email",
             "text": "The easiest way to send an inquiry is by email:",
-            "address": "valeria.parra@valeriasprachunterricht.de"
+            "address": "Send an email to Valeria"
         }
     },
     "legal": {
@@ -129,7 +129,7 @@
         "contact": {
             "title": "Contact",
             "emailLabel": "Email:",
-            "email": "valeria.parra@valeriasprachunterricht.de",
+            "email": "Send an email to Valeria",
             "phoneLabel": "Phone:",
             "phone": "Available on request"
         },

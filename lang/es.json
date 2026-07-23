@@ -61,11 +61,26 @@
             "level": "Nivel",
             "content": "Contenido",
             "duration": "Duración aproximada",
-            "a1": { "content": "Fundamentos", "duration": "aprox. 80–100 horas lectivas" },
-            "a2": { "content": "Conocimientos básicos", "duration": "aprox. 100–120 horas lectivas" },
-            "b1": { "content": "Uso intermedio", "duration": "aprox. 150–200 horas lectivas" },
-            "b2": { "content": "Uso independiente", "duration": "aprox. 180–220 horas lectivas" },
-            "c1": { "content": "Uso casi fluido", "duration": "aprox. 200–250 horas lectivas" }
+            "a1": {
+                "content": "Fundamentos",
+                "duration": "aprox. 80–100 horas lectivas"
+            },
+            "a2": {
+                "content": "Conocimientos básicos",
+                "duration": "aprox. 100–120 horas lectivas"
+            },
+            "b1": {
+                "content": "Uso intermedio",
+                "duration": "aprox. 150–200 horas lectivas"
+            },
+            "b2": {
+                "content": "Uso independiente",
+                "duration": "aprox. 180–220 horas lectivas"
+            },
+            "c1": {
+                "content": "Uso casi fluido",
+                "duration": "aprox. 200–250 horas lectivas"
+            }
         },
         "pricing": {
             "title": "Precios",
@@ -133,6 +148,12 @@
         "copyright": {
             "title": "Derechos de autor",
             "text": "Los contenidos y obras creados en este sitio web están sujetos a la legislación alemana sobre derechos de autor. Cualquier uso fuera de los límites de dicha legislación requiere el consentimiento previo de los respectivos titulares de derechos."
+        }
+    },
+    "aboutPage": {
+        "meta": {
+            "title": "Sobre mí",
+            "description": "Descubre más sobre Clases de idiomas Valeria."
         }
     },
     "about": {

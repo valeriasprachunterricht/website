@@ -25,11 +25,26 @@
             "level": "Level",
             "content": "Content",
             "duration": "Approximate duration",
-            "a1": { "content": "Basics", "duration": "approx. 80–100 lesson hours" },
-            "a2": { "content": "Elementary knowledge", "duration": "approx. 100–120 lesson hours" },
-            "b1": { "content": "Intermediate use", "duration": "approx. 150–200 lesson hours" },
-            "b2": { "content": "Independent use", "duration": "approx. 180–220 lesson hours" },
-            "c1": { "content": "Near-fluent use", "duration": "approx. 200–250 lesson hours" }
+            "a1": {
+                "content": "Basics",
+                "duration": "approx. 80–100 lesson hours"
+            },
+            "a2": {
+                "content": "Elementary knowledge",
+                "duration": "approx. 100–120 lesson hours"
+            },
+            "b1": {
+                "content": "Intermediate use",
+                "duration": "approx. 150–200 lesson hours"
+            },
+            "b2": {
+                "content": "Independent use",
+                "duration": "approx. 180–220 lesson hours"
+            },
+            "c1": {
+                "content": "Near-fluent use",
+                "duration": "approx. 200–250 lesson hours"
+            }
         },
         "pricing": {
             "title": "Prices",
@@ -133,6 +148,12 @@
         "copyright": {
             "title": "Copyright",
             "text": "The content and works created on this website are subject to German copyright law. Any use beyond the limits of copyright law requires the prior consent of the respective rights holders."
+        }
+    },
+    "aboutPage": {
+        "meta": {
+            "title": "About me",
+            "description": "Learn more about Valeria Language Lessons."
         }
     },
     "about": {

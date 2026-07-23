@@ -61,11 +61,26 @@
             "level": "Niveau",
             "content": "Inhalt",
             "duration": "Ungefähre Dauer",
-            "a1": { "content": "Grundlagen", "duration": "ca. 80–100 Unterrichtsstunden" },
-            "a2": { "content": "Grundkenntnisse", "duration": "ca. 100–120 Unterrichtsstunden" },
-            "b1": { "content": "Fortgeschrittene Sprachverwendung", "duration": "ca. 150–200 Unterrichtsstunden" },
-            "b2": { "content": "Selbstständige Sprachverwendung", "duration": "ca. 180–220 Unterrichtsstunden" },
-            "c1": { "content": "Nahezu fließende Sprachverwendung", "duration": "ca. 200–250 Unterrichtsstunden" }
+            "a1": {
+                "content": "Grundlagen",
+                "duration": "ca. 80–100 Unterrichtsstunden"
+            },
+            "a2": {
+                "content": "Grundkenntnisse",
+                "duration": "ca. 100–120 Unterrichtsstunden"
+            },
+            "b1": {
+                "content": "Fortgeschrittene Sprachverwendung",
+                "duration": "ca. 150–200 Unterrichtsstunden"
+            },
+            "b2": {
+                "content": "Selbstständige Sprachverwendung",
+                "duration": "ca. 180–220 Unterrichtsstunden"
+            },
+            "c1": {
+                "content": "Nahezu fließende Sprachverwendung",
+                "duration": "ca. 200–250 Unterrichtsstunden"
+            }
         },
         "pricing": {
             "title": "Kosten",
@@ -133,6 +148,12 @@
         "copyright": {
             "title": "Urheberrecht",
             "text": "Die auf dieser Website erstellten Inhalte und Werke unterliegen dem deutschen Urheberrecht. Jede Verwertung außerhalb der Grenzen des Urheberrechts bedarf der vorherigen Zustimmung der jeweiligen Rechteinhaber."
+        }
+    },
+    "aboutPage": {
+        "meta": {
+            "title": "Über mich",
+            "description": "Erfahren Sie mehr über Valeria Sprachunterricht."
         }
     },
     "about": {

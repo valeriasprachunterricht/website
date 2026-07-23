@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title data-i18n="seo.title">Valeria Sprachunterricht</title>
-    <meta name="description" content="Professioneller Sprachunterricht für Anfänger und Fortgeschrittene. Verfügbar für Englisch und Spanisch, online und persönlich in Heilbronn."
+    <meta name="description"
+        content="Professioneller Sprachunterricht für Anfänger und Fortgeschrittene. Verfügbar für Englisch und Spanisch, online und persönlich in Heilbronn."
         data-i18n-content="seo.description">
 
     <meta name="keywords" content="Sprachunterricht, Deutsch, Spanisch, Englisch, Heilbronn">
@@ -22,6 +23,62 @@
     <link rel="stylesheet" href="css/components.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="icon" href="/images/favicon.png" type="image/x-icon">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "EducationalOrganization",
+          "@id": "https://valeriasprachunterricht.de/#organization",
+          "name": "Valeria Sprachunterricht",
+          "url": "https://valeriasprachunterricht.de/",
+          "description": "Professioneller Englisch- und Spanischunterricht für Anfänger und Fortgeschrittene, online und in Präsenz in Heilbronn.",
+          "areaServed": {
+            "@type": "City",
+            "name": "Heilbronn"
+          },
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Heilbronn",
+            "addressCountry": "DE"
+          }
+        },
+        {
+          "@type": "Person",
+          "@id": "https://valeriasprachunterricht.de/#person",
+          "name": "Valeria Parra Fuentes",
+          "jobTitle": "Sprachlehrerin",
+          "url": "https://valeriasprachunterricht.de/",
+          "worksFor": {
+            "@id": "https://valeriasprachunterricht.de/#organization"
+          }
+        },
+        {
+          "@type": "Service",
+          "name": "Englisch- und Spanischunterricht",
+          "serviceType": "Sprachunterricht",
+          "provider": {
+            "@id": "https://valeriasprachunterricht.de/#organization"
+          },
+          "areaServed": {
+            "@type": "City",
+            "name": "Heilbronn"
+          },
+          "availableChannel": {
+            "@type": "ServiceChannel",
+            "name": "Online und in Präsenz"
+          },
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "EUR",
+            "price": "15",
+            "description": "Probestunde"
+          }
+        }
+      ]
+    }
+    </script>
 
     <script type="module" src="js/main.js" defer></script>
 </head>
@@ -56,7 +113,8 @@
                 </h2>
 
                 <p data-i18n="home.features.lesson.text">
-                    Individueller Unterricht für Englisch und Spanisch – von den ersten Grundlagen bis zur sicheren, fast fließenden Sprachverwendung.
+                    Individueller Unterricht für Englisch und Spanisch – von den ersten Grundlagen bis zur sicheren,
+                    fast fließenden Sprachverwendung.
                 </p>
 
                 <a href="pages/courses.html" class="button" data-i18n="home.features.lesson.button">
@@ -70,7 +128,8 @@
                 </h2>
 
                 <p data-i18n="home.features.online.text">
-                    Ob A1, A2, B1, B2 oder C1: Gemeinsam planen wir Unterricht, der zu deinem Lernziel und deinem Alltag passt.
+                    Ob A1, A2, B1, B2 oder C1: Gemeinsam planen wir Unterricht, der zu deinem Lernziel und deinem Alltag
+                    passt.
                 </p>
 
                 <a href="pages/courses.html" class="button" data-i18n="home.features.online.button">
@@ -96,12 +155,13 @@
 
         <section class="about-preview">
 
-                <h2 data-i18n="home.about.title">
+            <h2 data-i18n="home.about.title">
                 Über mich
             </h2>
 
             <p data-i18n="home.about.text">
-                Ich bin Valeria, Englisch- und Spanischlehrerin. Sprachen verbinden Menschen, Kulturen und neue Möglichkeiten – und genau das möchte ich in meinem Unterricht weitergeben.
+                Ich bin Valeria, Englisch- und Spanischlehrerin. Sprachen verbinden Menschen, Kulturen und neue
+                Möglichkeiten – und genau das möchte ich in meinem Unterricht weitergeben.
             </p>
 
             <a href="pages/about.html" class="button" data-i18n="buttons.more">
@@ -112,12 +172,13 @@
 
         <section class="contact-preview">
 
-                <h2 data-i18n="home.contact.title">
+            <h2 data-i18n="home.contact.title">
                 Kontakt
             </h2>
 
             <p data-i18n="home.contact.text">
-                Du möchtest starten oder hast Fragen? Schreib mir gerne und erzähl mir kurz von deinem Lernziel und deinem aktuellen Niveau.
+                Du möchtest starten oder hast Fragen? Schreib mir gerne und erzähl mir kurz von deinem Lernziel und
+                deinem aktuellen Niveau.
             </p>
 
             <a href="pages/contact.html" class="button" data-i18n="home.contact.button">
